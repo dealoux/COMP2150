@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        ""
+      ],
+      "stopAtEntry": false,
+      "cwd": "c:/Users/ducle/OneDrive/Work/University/COMP Courses/COMP 2150 - Object Orientation/Examples/CPP_LinkedList_Include_FR",
+      "environment": [],
+      "program": "c:/Users/ducle/OneDrive/Work/University/COMP Courses/COMP 2150 - Object Orientation/Examples/CPP_LinkedList_Include_FR/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Program Files/msys64/mingw64/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 7
+
+Creating new client...
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 7
+
+Creating new client...
+
+POS Client #3: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 8
+
+Switching to the next client...
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+You selected purchase. Starting a purchase transaction.
+1,PURCHASE,20223213053244
+
+POS Client #1: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the purchase: totallyAValidItem
+1,ADD,20223213053256,totallyAValidItem
+Unable to find item totallyAValidItem in inventory
+
+POS Client #1: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the purchase: 1CRGADWIDE
+1,ADD,20223313053302,1CRGADWIDE
+null
+
+POS Client #1: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the purchase: 1CRGADWIDE
+1,ADD,20223313053304,1CRGADWIDE
+null
+
+POS Client #1: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the purchase: 1CRGMPDLO
+1,ADD,20223313053310,1CRGMPDLO
+null
+
+POS Client #1: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 3
+
+Completing the current purchase.
+1,COMPLETE,20223313053330
+null
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 2
+
+You selected backorder. Starting a backorder transaction.
+1,BACKORDER,20223313053332
+
+POS Client #1: enter a command
+   1 - Add item to current backorder
+   3 - Complete the current backorder
+   4 - Cancel the current backorder
+   5 - Search for items
+   6 - Get a summary of the current backorder
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the backorder: 1CRGENC
+1,ADD,20223313053346,1CRGENC
+null
+
+POS Client #1: enter a command
+   1 - Add item to current backorder
+   3 - Complete the current backorder
+   4 - Cancel the current backorder
+   5 - Search for items
+   6 - Get a summary of the current backorder
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 3
+
+Completing the current backorder.
+1,COMPLETE,20223313053349
+null
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 6
+1,SUMMARY,20223313053350
+null
+Purchase ID: 1 Client ID: 1 time: 20223213053244
+ items: {1CRGADWIDE=1CRGADWIDE (2), 1CRGMPDLO=1CRGMPDLO (1)}
+ value: $213.00
+Order ID: 2 Client ID: 1 time: 20223313053332
+ items: {1CRGENC=1CRGENC (1)}
+ value: $71.00
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 8
+
+Switching to the next client...
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+You selected purchase. Starting a purchase transaction.
+2,PURCHASE,20223413053406
+
+POS Client #2: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 4
+
+Cancelling the current purchase.
+2,CANCEL,20223413053412
+null
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 3
+
+You selected return. Starting a return transaction.
+2,RETURN,20223413053422
+
+POS Client #2: enter a command
+   1 - Add item to current return
+   3 - Complete the current return
+   4 - Cancel the current return
+   5 - Search for items
+   6 - Get a summary of the current return
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the return: 1CRWV2W2TC
+2,ADD,20223413053435,1CRWV2W2TC
+null
+
+POS Client #2: enter a command
+   1 - Add item to current return
+   3 - Complete the current return
+   4 - Cancel the current return
+   5 - Search for items
+   6 - Get a summary of the current return
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 3
+
+Completing the current return.
+2,COMPLETE,20223413053438
+null
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 6
+2,SUMMARY,20223413053443
+null
+Return ID: 4 Client ID: 2 time: 20223413053422
+ items: {1CRWV2W2TC=1CRWV2W2TC (1)}
+ value: $78.25
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 4
+
+What transaction ID would you like to cancel? 1
+2,CANCEL,20223413053451,1
+Unable to cancel
+Transactions: 1 belongs to client 1
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 4
+
+What transaction ID would you like to cancel? 4
+2,CANCEL,20223513053505,4
+null
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 6
+2,SUMMARY,20223513053509
+null
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+You selected purchase. Starting a purchase transaction.
+2,PURCHASE,20223513053527
+
+POS Client #2: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 1
+
+Enter an item ID to add to the purchase: 1CAW2020
+2,ADD,20223513053537,1CAW2020
+null
+
+POS Client #2: enter a command
+   1 - Add item to current purchase
+   3 - Complete the current purchase
+   4 - Cancel the current purchase
+   5 - Search for items
+   6 - Get a summary of the current purchase
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 3
+
+Completing the current purchase.
+2,COMPLETE,20223513053539
+null
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 6
+2,SUMMARY,20223513053541
+null
+Purchase ID: 5 Client ID: 2 time: 20223513053527
+ items: {1CAW2020=1CAW2020 (1)}
+ value: $162.46
+
+POS Client #2: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 9
+
+Quitting the current client...
+
+POS Client #3: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 8
+
+Switching to the next client...
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 8
+
+Switching to the next client...
+
+POS Client #3: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 4
+
+What transaction ID would you like to cancel? 5
+3,CANCEL,20223613053611,5
+Unable to cancel
+Transactions: 5 belongs to client 2
+
+POS Client #3: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 8
+
+Switching to the next client...
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 6
+1,SUMMARY,20223613053618
+null
+Purchase ID: 1 Client ID: 1 time: 20223213053244
+ items: {1CRGADWIDE=1CRGADWIDE (2), 1CRGMPDLO=1CRGMPDLO (1)}
+ value: $213.00
+Order ID: 2 Client ID: 1 time: 20223313053332
+ items: {1CRGENC=1CRGENC (1)}
+ value: $71.00
+
+POS Client #1: enter a command
+   1 - Purchase some items
+   2 - Backorder some items
+   3 - Return some items
+   4 - Cancel a transaction
+   5 - Search for items
+   6 - List all of this client's transactions
+   7 - Create a new client
+   8 - Switch to the next client
+   9 - Exit this client
+Enter your choice: 
+Process finished with exit code 130
